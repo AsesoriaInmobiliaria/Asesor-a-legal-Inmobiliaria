@@ -96,8 +96,8 @@ HERO
     padding:0 80px;
 
     background:
-    linear-gradient(rgba(20,33,52,.55),rgba(20,33,52,.55)),
-    url("https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=2000&q=80");
+    linear-gradient(rgba(255,255,255,.18),rgba(255,255,255,.18)),
+    url("hero.jpg");
 
     background-size:cover;
     background-position:center;
