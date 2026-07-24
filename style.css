@@ -271,3 +271,181 @@ NOSOTROS
 .lista div:last-child{
     border-bottom:none;
 }
+/* ===========================
+   CONTACTO
+=========================== */
+
+.contacto{
+
+    padding:90px 8%;
+    background:#f7f7f7;
+
+}
+
+.contacto h4{
+
+    color:#c89d45;
+    letter-spacing:2px;
+    margin-bottom:15px;
+
+}
+
+.contacto h2{
+
+    font-family:"Cormorant Garamond",serif;
+    font-size:52px;
+    margin-bottom:50px;
+    color:#20324d;
+
+}
+
+.contacto-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+
+}
+
+.contacto-card{
+
+    background:white;
+    padding:35px;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+
+}
+
+.contacto-card span{
+
+    font-size:34px;
+    display:block;
+    margin-bottom:15px;
+
+}
+
+.contacto-card h3{
+
+    margin-bottom:10px;
+    color:#20324d;
+
+}
+
+.contacto-card p{
+
+    color:#555;
+
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:#20324d;
+    color:white;
+    text-align:center;
+    padding:30px;
+
+}
+
+footer p{
+
+    opacity:.9;
+
+}
+
+
+/* ===========================
+   WHATSAPP
+=========================== */
+
+.whatsapp{
+
+    position:fixed;
+    right:25px;
+    bottom:25px;
+
+    width:65px;
+    height:65px;
+
+    background:#25D366;
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+    font-size:34px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+
+    transition:.3s;
+
+}
+
+.whatsapp:hover{
+
+    transform:scale(1.1);
+
+}
+
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+header{
+
+    flex-direction:column;
+    gap:25px;
+    padding:30px;
+
+}
+
+nav{
+
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+.hero{
+
+    padding:170px 30px 90px;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+
+}
+
+.servicios-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.nosotros{
+
+    grid-template-columns:1fr;
+
+}
+
+.contacto-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
