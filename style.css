@@ -449,3 +449,88 @@ nav{
 }
 
 }
+
+/* COMPATIBILIDAD CON EL HTML */
+
+.hero-texto{
+    position:relative;
+    z-index:2;
+    max-width:650px;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(20,35,55,.45);
+}
+
+.hero{
+    position:relative;
+}
+
+.btn,
+.btn2{
+    display:inline-block;
+    padding:18px 35px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:600;
+    margin-right:15px;
+}
+
+.btn{
+    background:#d9b15d;
+    color:#fff;
+}
+
+.btn2{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    margin-top:60px;
+}
+
+.card{
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.circulo{
+    width:80px;
+    height:80px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:#20324d;
+    color:#d9b15d;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:34px;
+}
+
+.servicios{
+    padding:100px 8%;
+    background:#f8f8f8;
+}
+
+.servicios h5{
+    color:#d9b15d;
+    letter-spacing:2px;
+    text-align:center;
+}
+
+.servicios h2{
+    text-align:center;
+    font-family:"Cormorant Garamond",serif;
+    font-size:48px;
+    color:#20324d;
+    margin:20px 0 40px;
+}
