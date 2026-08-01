@@ -92,25 +92,23 @@ HERO
     height:100vh;
     display:flex;
     align-items:center;
+    justify-content:flex-start;
     position:relative;
-    padding:0 80px;
+    padding:0 8%;
 
     background-image:
-        linear-gradient(rgba(20,35,55,.30), rgba(20,35,55,.30)),
+        linear-gradient(rgba(20,35,55,.28), rgba(20,35,55,.28)),
         url("hero.jpg");
 
     background-size:cover;
-    background-position:center;
+    background-position:center center;
     background-repeat:no-repeat;
-
 }
 
 .hero-texto{
-
-    max-width:650px;
+    max-width:600px;
     position:relative;
     z-index:2;
-
 }
 
 .hero span{
@@ -122,52 +120,47 @@ HERO
 }
 
 .hero h1{
-
     font-family:'Cormorant Garamond',serif;
-    color:white;
-    font-size:88px;
+    color:#fff;
+    font-size:84px;
     line-height:.95;
-    margin:25px 0;
-
+    margin:20px 0 30px;
 }
 
 .hero p{
-
-    color:white;
-    font-size:24px;
-    line-height:1.7;
-    max-width:620px;
-
-}
-
-.botones{
-
-    margin-top:50px;
-    display:flex;
-    gap:20px;
-
+    color:#fff;
+    font-size:22px;
+    line-height:1.8;
+    max-width:560px;
 }
 
 .btn{
-
     background:#d9b15d;
     color:white;
     text-decoration:none;
-    padding:18px 36px;
-    border-radius:6px;
+    padding:18px 40px;
+    border-radius:8px;
     font-weight:600;
+    transition:.3s;
+}
 
+.btn:hover{
+    transform:translateY(-2px);
+    background:#c89d45;
 }
 
 .btn2{
-
     border:2px solid white;
     color:white;
     text-decoration:none;
-    padding:18px 36px;
-    border-radius:6px;
+    padding:18px 40px;
+    border-radius:8px;
     font-weight:600;
+    transition:.3s;
+}
 
+.btn2:hover{
+    background:rgba(255,255,255,.15);
 }
 /*======================
 SERVICIOS
