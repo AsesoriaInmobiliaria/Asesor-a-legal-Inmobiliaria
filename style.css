@@ -127,7 +127,7 @@ HERO
 .hero h1{
     font-family:"Cormorant Garamond",serif;
     color:#fff;
-    font-size:84px;
+    font-size:72px;
     line-height:.95;
     margin:20px 0 30px;
 }
@@ -181,7 +181,7 @@ SERVICIOS
 
 .servicios{
     background:#f8f9fb;
-    padding:100px 8%;
+    padding:90px 8% 0;
     text-align:center;
 }
 
