@@ -104,11 +104,11 @@ HERO
     position:relative;
 
     background-image:
-        linear-gradient(rgba(20,35,55,.28),rgba(20,35,55,.28)),
-        url("hero.jpg");
+    linear-gradient(rgba(20,35,55,.18), rgba(20,35,55,.18)),
+    url("hero.jpg");
 
     background-size:cover;
-    background-position:center;
+    background-position:center 35%;
     background-repeat:no-repeat;
 }
 
