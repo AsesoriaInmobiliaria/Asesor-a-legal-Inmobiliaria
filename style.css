@@ -386,8 +386,8 @@ OTRAS ÁREAS
 ======================*/
 
 .otras-areas{
-    padding:100px 8%;
     background:#ffffff;
+    padding:100px 8%;
     text-align:center;
 }
 
@@ -408,10 +408,11 @@ OTRAS ÁREAS
 .otras-card{
     max-width:700px;
     margin:0 auto;
-    background:#fff;
+    background:#ffffff;
     padding:45px;
     border-radius:18px;
     box-shadow:0 15px 40px rgba(0,0,0,.08);
+    text-align:center;
 }
 
 .otras-card .circulo{
@@ -423,7 +424,10 @@ OTRAS ÁREAS
     font-size:28px;
     margin-bottom:20px;
 }
-
+.otras-card p{
+    max-width:550px;
+    margin:0 auto;
+}
 .otras-card p{
     color:#555;
     line-height:1.8;
