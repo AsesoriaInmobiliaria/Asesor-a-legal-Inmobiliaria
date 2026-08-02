@@ -78,17 +78,31 @@ nav a:hover{
 }
 
 .telefono{
-    background:#d9b15d;
-    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:14px 28px;
+
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.35);
+    border-radius:12px;
+
+    color:#ffffff;
     text-decoration:none;
-    padding:16px 28px;
-    border-radius:8px;
     font-weight:600;
-    transition:.3s;
+    font-size:18px;
+
+    transition:all .3s ease;
 }
 
 .telefono:hover{
-    background:#c79b38;
+    background:rgba(255,255,255,.28);
+    border-color:rgba(255,255,255,.55);
+    transform:translateY(-2px);
 }
 
 /*======================
