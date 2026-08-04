@@ -377,35 +377,12 @@ WHATSAPP
 }
 
 /*======================
-ICONO OTRAS ÁREAS
-======================*/
-
-.otras-icono{
-    width:120px;
-    height:120px;
-    margin:0 auto 30px;
-}
-
-.otras-icono img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    border-radius:50%;
-    display:block;
-}
-
-/*======================
-RESPONSIVE
-======================*/
-
-@media (max-width:992px){
-/*======================
 OTRAS ÁREAS
 ======================*/
 
 .otras-areas{
     background:#20324d;
-    padding:90px 8%;
+    padding:100px 8%;
 }
 
 .otras-areas h5{
@@ -417,137 +394,199 @@ OTRAS ÁREAS
 }
 
 .otras-card{
-    max-width:900px;
+
+    max-width:1000px;
     margin:0 auto;
 
     display:flex;
     align-items:center;
-    gap:40px;
+    gap:50px;
 
-    color:white;
+    background:#20324d;
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:18px;
+
+    padding:50px;
 }
 
 .otras-icono{
+
     flex-shrink:0;
+
 }
 
 .otras-icono img{
-    width:180px;
+
+    width:190px;
+    height:190px;
+
+    object-fit:cover;
+
     border-radius:50%;
+
     display:block;
+
+    border:4px solid rgba(255,255,255,.12);
+
 }
 
 .otras-info{
+
     flex:1;
+
 }
 
 .otras-info h3{
-    font-size:38px;
-    margin-bottom:25px;
+
     color:white;
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:46px;
+
+    margin-bottom:25px;
+
 }
 
 .otras-info ul{
+
     list-style:none;
     padding:0;
     margin:0;
+
 }
 
 .otras-info li{
-    margin-bottom:15px;
+
+    color:#edf3ff;
     font-size:20px;
-    color:#eef3fa;
+    line-height:2;
+
 }
 
 .otras-info li::before{
-    content:"✓ ";
+
+    content:"✓";
     color:#d9b15d;
     font-weight:bold;
+    margin-right:12px;
+
 }
 
-.otras-card{
-    max-width:700px;
-    margin:0 auto;
-    background:#ffffff;
-    padding:45px;
-    border-radius:18px;
-    box-shadow:0 15px 40px rgba(0,0,0,.08);
-    text-align:center;
-}
+/*======================
+RESPONSIVE
+======================*/
 
-.otras-card .circulo{
-    margin:0 auto 25px;
-}
+@media (max-width:992px){
 
-.otras-card h3{
-    color:#20324d;
-    font-size:28px;
-    margin-bottom:20px;
-}
-.otras-card p{
-    max-width:550px;
-    margin:0 auto;
-}
-.otras-card p{
-    color:#555;
-    line-height:1.8;
-    font-size:18px;
-}
-    
 header{
+
     flex-direction:column;
     gap:20px;
     padding:25px;
+
 }
 
 nav{
+
     flex-wrap:wrap;
     justify-content:center;
     gap:20px;
+
 }
 
 .telefono{
+
     margin-top:10px;
+
 }
 
 .hero{
+
     min-height:100vh;
     height:auto;
     padding:170px 30px 100px;
+
 }
 
 .hero-texto{
+
     max-width:100%;
+
 }
 
 .hero h1{
+
     font-size:56px;
+
 }
 
 .hero p{
+
     font-size:20px;
+
 }
 
 .botones{
+
     flex-direction:column;
     align-items:flex-start;
+
 }
 
 .cards{
+
     grid-template-columns:1fr;
+
 }
 
 .contenedor{
+
     grid-template-columns:1fr;
     gap:40px;
+
 }
 
 .contacto{
+
     padding:80px 30px;
+
 }
 
 .contacto h2{
+
     font-size:38px;
+
+}
+
+/* Otras Áreas */
+
+.otras-card{
+
+    flex-direction:column;
+    text-align:center;
+    padding:40px 30px;
+
+}
+
+.otras-icono img{
+
+    width:150px;
+    height:150px;
+
+}
+
+.otras-info h3{
+
+    font-size:34px;
+
+}
+
+.otras-info li{
+
+    font-size:18px;
+    line-height:1.8;
+
 }
 
 }
