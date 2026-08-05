@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://asesoriainmobiliaria.github.io/Asesor-a-legal-Inmobiliaria/sitemap.xml
